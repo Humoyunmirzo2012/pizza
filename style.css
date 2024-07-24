@@ -1,0 +1,131 @@
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home_container{
+    max-width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    background: #151515;
+}
+.navbar{
+    width: 100%;
+    height: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 84px;
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+    gap: 6.14px;
+}
+.nav_logo p{
+    color: #FF8C42;
+    font-family: Quicksand;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav_link a{
+    color: #FF8C42;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 35px;
+}
+.menu_hero{
+    height: 935px;
+    display: flex;   
+    justify-content: space-between;
+}
+.menu_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 84px;
+    width: 1000px;
+}
+.menu_title{
+    color: #FF8C42;
+    font-family: Quicksand;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 120px;
+}
+.menu_subtitle{
+    color: #FF8C42;
+    font-family: Quicksand;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.menu_search{
+    display: flex;
+    gap: 7.5px;
+}
+.menu_search input{
+    width: 283.5px;
+    height: 48px;
+    color: #FF8C42;
+    background-color: #151515;
+    border: 4px solid #FF8C42;
+    border-radius: 8px;
+    font-size: 28px;
+    outline: none;
+    padding-left: 8px;
+}
+.menu_btn{
+    width: 198px;
+    height: 48px;
+    background-color: #FF8C42;
+    color: #fff;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    border: 4px solid #FF8C42;
+}
+.menu__try_now{
+    margin-top: 72px;
+    width: 191px;
+    height: 68px;
+    background-color: #FF8C42;
+    border: none;
+    color: #fff;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+}
+.menu_right{
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu__right_img{
+    width: 972px;
+}
+.menu_sun{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 84px;
+}

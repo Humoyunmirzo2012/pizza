@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script:regular);
+@import url(https://fonts.googleapis.com/css?family=Kosugi:regular);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu_container {
+    max-width: 1920px;
+    height: 1080px;
+    /* border: 1px solid red; */
+    background-color: #151515;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.menu_img {
+    margin-top: 160px;
+}
+
+.menu_title {
+    font-family: Kaushan Script;
+    font-size: 152px;
+    font-weight: 400;
+    line-height: 221px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FF8C42;
+    text-transform: capitalize;
+    width: 1460px;
+}
+
+.menu_bar {
+    display: flex;
+}
+
+.menu_left,
+.menu_right {
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+.menu__left_list {
+    margin-bottom: 48px;
+}
+
+.menu_list {
+    font-family: Kosugi;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFDDC8;
+    margin-bottom: 30px;
+}
+
+.list {
+
+    color: #FFDDC8;
+    font-family: Kosugi;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 18px 0px;
+}
+
+.menu__right_title {
+    color: #FFDDC8;
+    font-family: Kosugi;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.title {
+    color: #FFDDC8;
+    margin-top: 20px;
+    color: #FFDDC8;
+}
+.menu_btn{
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #FF8C42;
+    color: white;
+    margin-left: 120px;
+    border: none;
+    cursor: pointer;
+}
+.menu_btn:active{
+    background-color: #FFDDC8;
+    color: #000;
+}
+.classic__pizza{
+    margin-bottom: 21px;
+}
+.classic_pizza{
+    display: flex;
+    gap: 94px;
+}
+.pizza_title{
+    font-family: Kosugi;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFDDC8;
+    margin-bottom: 10px;
+}
+.pizza_subtitle{
+    font-family: Kosugi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFDDC8;
+}
